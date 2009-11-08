@@ -1,0 +1,53 @@
+<%
+    window = extjs_component(
+        "xtype" => "window",
+        "id" => "projects",
+        "title" => "Project Manager",
+        "iconCls" => "silk-calendar",
+        "closeAction" => "hide",
+        "layout" => "border",
+        "height" => 480,
+        "width" => 800
+    )
+    window.add(extjs_component(
+        "xtype" => "panel",
+        "region" => "west",
+        "width" => 300,
+        "margins" => "5 5 5 5",
+        "title" => "West"
+    ))
+    window.add(extjs_component(
+        "xtype" => "panel",
+        "id" => "workspace",
+        "title" => "Center",
+        "margins" => "5 5 5 0",
+        "region" => "center",
+        "layout" => "card",
+        "activeItem" => 0,
+        "layoutConfig" =>{
+            "layoutOnCardChange" => true
+        }
+    ))
+ 
+    extjs_onready(window)
+%>
+ 
+<%= extjs_render %>
+ 
+<script>
+ 
+    Ext.onReady(function() {
+        var projects = Ext.getCmp('projects');
+        new Ext.Toolbar({
+            renderTo: 'nav',
+            items: [{
+                text: 'Projects',
+                iconCls: 'silk-calendar',
+                handler: function(btn, ev) {
+                    projects.show(btn.el);
+                }
+            }, '-', '->', 'Logged in as Your Mother (<a href="#">Logout</a>)']
+        });
+    });
+ 
+</script>

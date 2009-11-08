@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+ 
+    <title>Ext on Rails</title>
+ 
+    <%= stylesheet_link_tag '/javascripts/ext-3.0.0/resources/css/ext-all', 'app', 'silk' %>
+    <%= javascript_include_tag 'ext-3.0.0/adapter/ext/ext-base', 'ext-3.0.0/ext-all' %>
+</head>
+ 
+<body>
+    <div id="hd">
+        <img src="/images/rails.png" />
+        <h1>ExtJS on Rails</h1>
+        <div class="x-clear">&nbsp;</div>
+    </div>
+    <div id="nav"></div>
+    <div id="bd"><%= @content_for_layout %></div>
+    <div id="ft"></div>
+</body>
+</html>

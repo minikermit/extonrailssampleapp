@@ -1,0 +1,43 @@
+<div id="panel"></div>
+ 
+<%
+    panel = extjs_component(
+        "xtype" => 'panel',
+        "iconCls" => "silk-application",
+        "title" => 'Auto-generated Ext.Panel!',
+        "renderTo" => 'panel',
+        "frame" => true,
+        "width" => 300,
+        "height" => 100,
+        "html" => 'Why are my feet so far from my head?',
+        "collapsible" => true,
+        "buttonAlign" => "center",
+        "buttons" => [{
+            "text" => "Save",
+            "iconCls" => "silk-disk",
+            "handler" => "Controller.onSave"
+        }, {
+            "text" => "Cancel",
+            "iconCls" => "silk-cancel",
+            "handler" => "Controller.onCancel"
+        }]
+    )
+ 
+    extjs_onready(panel)
+%>
+ 
+<%= extjs_render %>
+ 
+<script>
+    Controller = function() {
+        return {
+            onSave : function() {
+                Ext.Msg.alert('Controller says', 'You clicked Save');
+            },
+            onCancel : function() {
+                Ext.Msg.alert('Controller says', 'You clicked Cancel');
+            }
+        }
+    }();
+ 
+</script>
