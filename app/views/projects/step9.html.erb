@@ -1,0 +1,112 @@
+<% @provider = get_extjs_direct_provider("remoting", "/direct") %>
+ 
+<!-- build the application layout -->
+<%
+    window = extjs_component(
+        "xtype" => "window",
+        "id" => "projects",
+        "title" => "Project Manager",
+        "iconCls" => "silk-calendar",
+        "closeAction" => "hide",
+        "layout" => "border",
+        "height" => 480,
+        "width" => 800
+    )
+ 
+    workspace = window.add(extjs_component(
+        "xtype" => "panel",
+        "itemId" => "workspace",
+        "border" => false,
+        "margins" => "5 5 5 0",
+        "region" => "center",
+        "layout" => "card",
+        "activeItem" => 0,
+        "layoutConfig" =>{
+            "layoutOnCardChange" => true
+        }
+    ))
+    extjs_onready(window)
+%>
+ 
+<!-- partial:  /users/_grid -->
+<%= window.add(:partial => '/users/grid',
+    "itemId" => 'users-grid',
+    "region" => 'west',
+    "width" => 300,
+    "margins" => '5 5 5 5',
+    "cmargins" => '5 5 5 5',
+    "collapsible" => true
+) %>
+ 
+<!-- partial:  tasks/_grid -->
+<%= workspace.add(:partial => '/tasks/grid',
+    "itemId" => 'tasks-grid',
+    "listeners" => "ProjectsController.listeners.tasks.grid")
+%>
+ 
+<!-- partial: tasks/_form -->
+<%= workspace.add(:partial => '/tasks/form',
+    "itemId" => 'tasks-form',
+    "listeners" => "ProjectsController.listeners.tasks.form"
+) %>
+ 
+ 
+ 
+<!-- Render the Direct provider after all partials have run -->
+<%= @provider.render %>
+ 
+<%= extjs_render %>
+ 
+<script>
+    ProjectsController = function() {
+ 
+        var workspace = null;
+        Ext.onReady(function() {
+            var projects = Ext.getCmp('projects');
+ 
+            // set workspace pointer for convenience.
+            workspace = projects.getComponent('workspace');
+ 
+            new Ext.Toolbar({
+                renderTo: 'nav',
+                items: [{
+                    text: 'Projects',
+                    iconCls: 'silk-calendar',
+                    handler: function(btn, ev) {
+                        projects.show(btn.el);
+                    }
+                }, '-', '->', 'Logged in as SomeOne (<a href="#">Logout</a>)']
+            });
+        });
+ 
+        return {
+            listeners: {
+                tasks: {
+                    grid: {
+                        'add-record' : function(grid) {
+                            var fpanel = workspace.getComponent('tasks-form');
+                            fpanel.reset();
+                            workspace.getLayout().setActiveItem(fpanel);
+                        },
+                        'rowdblclick' : function(grid, index, ev) {
+                            var record = grid.store.getAt(index);
+                            var fpanel = workspace.getComponent('tasks-form');
+                            fpanel.loadRecord(record);
+                            workspace.getLayout().setActiveItem(fpanel);
+                        }
+                    },
+                    form : {
+                        'storable-save' : function(fpanel) {
+                            var grid = workspace.getComponent('tasks-grid');
+                            workspace.getLayout().setActiveItem(grid);
+                        },
+                        'storable-cancel' : function(fpanel) {
+                            var grid = workspace.getComponent('tasks-grid');
+                            workspace.getLayout().setActiveItem(grid);
+                        }
+                    }
+                }
+            }
+        }
+    }();
+</script>

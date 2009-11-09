@@ -1,0 +1,52 @@
+<%= javascript_include_tag "ux/FormPanel/Storable/Ext.ux.FormPanel.Storable" %>
+ 
+<%
+    extjs_component(
+        :container => container,
+        "title" => "Task",
+        "xtype" => 'form',
+        "plugins" => {
+            "ptype" => "form-storable",
+            "storeId" => "task",
+            "saveButton" => "buttons.btn-save",
+            "cancelButton" => "buttons.btn-cancel"
+        },
+        "labelAlign" => 'top',
+        "bodyStyle" => "padding:10px",
+        "buttonAlign" => "center",
+        "buttons" => [{
+            "text" => "Save",
+            "itemId" => "btn-save"
+        }, {
+            "text" => "Cancel",
+            "itemId" => "btn-cancel"
+        }],
+        :items => [{
+            "xtype" => 'textfield',
+            "anchor" => '100%',
+            "fieldLabel" => 'title',
+            "allowBlank" => false,
+            "name" => 'title'
+        }, {
+            "xtype" =>'combo',
+            "store" => "user",
+            "anchor" => '100%',
+            "fieldLabel" => 'Assigned to',
+            "storeId" => 'user',
+            "hiddenName" => 'user_id',
+            "displayField" => 'email',
+            "valueField" => 'id',
+            "mode" => 'local',
+            "forceSelection" => true,
+            "triggerAction" => 'all'
+        }, {
+            "xtype" => 'textarea',
+            "fieldLabel" => 'Description',
+            "grow" => true,
+            "allowBlank" => false,
+            "growMin" => 200,
+            "anchor" => '100%',
+            "name" => 'description'
+        }]
+    )
+%>

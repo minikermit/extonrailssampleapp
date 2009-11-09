@@ -1,0 +1,26 @@
+<% extjs_component(:container => container,
+    "xtype" => "panel",
+    "html" => "<p>In Firebug, try exploring ..."
+) %>
+ 
+<script>
+Ext.Direct.addProvider({
+    url: '/direct',    // --- There's our direct-url again
+    type: 'remoting',
+    actions: {
+        Tasks: [{    // --- There's our controller and actions
+            name: 'load',
+            len: 1
+        }, {
+            name: 'update',
+            len: 1
+        }, {
+            name: 'create',
+            len: 1
+        }, {
+            name: 'destroy',
+            len: 1
+        }]
+    }
+});
+</script>

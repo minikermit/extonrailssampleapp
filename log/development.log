@@ -547,3 +547,977 @@
     c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
     c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
     script/server:3
+
+
+Processing ProjectsController#step1 (for 127.0.0.1 at 2009-11-08 23:06:55) [GET]
+Rendering template within layouts/application
+Rendering projects/step1
+Completed in 500ms (View: 500, DB: 109) | 200 OK [http://localhost/projects/step1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step2 (for 127.0.0.1 at 2009-11-08 23:07:14) [GET]
+Rendering template within layouts/application
+Rendering projects/step2
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/projects/step2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/application.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/disk.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/cancel.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step3 (for 127.0.0.1 at 2009-11-08 23:07:27) [GET]
+Rendering template within layouts/application
+Rendering projects/step3
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/projects/step3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/application.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/disk.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/cancel.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step4 (for 127.0.0.1 at 2009-11-08 23:07:50) [GET]
+Rendering template within layouts/application
+Rendering projects/step4
+Completed in 94ms (View: 94, DB: 16) | 200 OK [http://localhost/projects/step4]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:07:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step5 (for 127.0.0.1 at 2009-11-08 23:08:03) [GET]
+Rendering template within layouts/application
+Rendering projects/step5
+Rendered users/_foo (0.0ms)
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://localhost/projects/step5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:08:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:08:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:08:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE [schema_migrations] ([version] varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (63.0ms)[0m   [0mCREATE UNIQUE INDEX [unique_schema_migrations] ON [schema_migrations] ([version])[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20091108221300)
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mBEGIN TRANSACTION[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE [users] ([id] int NOT NULL IDENTITY(1, 1) PRIMARY KEY, [first] varchar(255) NOT NULL, [last] varchar(255) NOT NULL, [email] varchar(255) NOT NULL, [created_at] datetime, [updated_at] datetime) [0m
+  [4;35;1mSQL (32.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091108221300')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mCOMMIT TRANSACTION[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (281.0ms)[0m   [0mEXEC sp_helpindex [users][0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:21:05) [GET]
+
+ActionController::RoutingError (No route matches "/step5" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step5 (for 127.0.0.1 at 2009-11-08 23:21:22) [GET]
+Rendering template within layouts/application
+Rendering projects/step5
+Rendered users/_foo (0.0ms)
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/projects/step5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:21:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:21:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:21:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mEXECUTE (15.0ms)[0m   [0;1mBEGIN TRANSACTION[0m
+  [4;35;1mUser Create (31.0ms)[0m   [0mINSERT INTO [users] ([updated_at], [last], [first], [email], [created_at]) VALUES('2009-11-08 22:30:09.265', 'Smith', 'Philip', 'philip.smith@specitec.ch', '2009-11-08 22:30:09.265')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mCOMMIT TRANSACTION[0m
+  [4;36;1mEXECUTE (16.0ms)[0m   [0;1mBEGIN TRANSACTION[0m
+  [4;35;1mUser Create (16.0ms)[0m   [0mINSERT INTO [users] ([updated_at], [last], [first], [email], [created_at]) VALUES('2009-11-08 22:30:45.437', 'Grillet', 'Yanick', 'yanick.grillet@specitec.ch', '2009-11-08 22:30:45.437')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mCOMMIT TRANSACTION[0m
+  [4;36;1mEXECUTE (0.0ms)[0m   [0;1mBEGIN TRANSACTION[0m
+  [4;35;1mUser Create (16.0ms)[0m   [0mINSERT INTO [users] ([updated_at], [last], [first], [email], [created_at]) VALUES('2009-11-08 22:31:26.437', 'Marilley', 'Jacques', 'jacques.marilley@specitec.ch', '2009-11-08 22:31:26.437')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mCOMMIT TRANSACTION[0m
+
+
+Processing ProjectsController#step6 (for 127.0.0.1 at 2009-11-08 23:39:11) [GET]
+Rendering template within layouts/application
+Rendering projects/step6
+Rendered users/_grid (641.0ms)
+Completed in 797ms (View: 266, DB: 531) | 200 OK [http://localhost/projects/step6]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:39:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:39:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-08 23:39:15) [GET]
+  Parameters: {"_dc"=>"1257719955176"}
+  [4;36;1mUser Load (156.0ms)[0m   [0;1mSELECT * FROM [users] [0m
+
+NoMethodError (undefined method `first' for #<User:0x497a8c0>):
+  c:/ruby/lib/ruby/gems/1.8/gems/extjs-mvc-0.2.5/lib/model/active_record/model.rb:27:in `send'
+  c:/ruby/lib/ruby/gems/1.8/gems/extjs-mvc-0.2.5/lib/model/active_record/model.rb:27:in `to_record'
+  c:/ruby/lib/ruby/gems/1.8/gems/extjs-mvc-0.2.5/lib/model/active_record/model.rb:18:in `each'
+  c:/ruby/lib/ruby/gems/1.8/gems/extjs-mvc-0.2.5/lib/model/active_record/model.rb:18:in `to_record'
+  app/controllers/users_controller.rb:5:in `index'
+  app/controllers/users_controller.rb:5:in `collect'
+  app/controllers/users_controller.rb:5:in `index'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:39:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:39:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:39:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:39:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:05) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-1"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:12) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-2"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:12) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-1"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:15) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-2"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:15) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-1"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:16) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-2"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:17) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-1"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:22) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-2", "email"=>"test@test.com"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:41:22) [POST]
+  Parameters: {"data"=>{"id"=>"ext-record-1"}}
+
+ActionController::UnknownAction (No action responded to create. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step6 (for 127.0.0.1 at 2009-11-08 23:45:20) [GET]
+Rendering template within layouts/application
+Rendering projects/step6
+Rendered users/_grid (687.0ms)
+Completed in 938ms (View: 656, DB: 313) | 200 OK [http://localhost/projects/step6]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:45:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:45:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-08 23:45:30) [GET]
+  Parameters: {"_dc"=>"1257720328893"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM [users] [0m
+Completed in 2375ms (View: 609, DB: 188) | 200 OK [http://localhost/users.json?_dc=1257720328893]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:45:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:45:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:45:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:45:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#destroy to json (for 127.0.0.1 at 2009-11-08 23:46:08) [DELETE]
+  Parameters: {"id"=>"3", "data"=>"3"}
+
+ActionController::UnknownAction (No action responded to destroy. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#destroy to json (for 127.0.0.1 at 2009-11-08 23:46:12) [DELETE]
+  Parameters: {"id"=>"3", "data"=>"3"}
+
+ActionController::UnknownAction (No action responded to destroy. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#destroy to json (for 127.0.0.1 at 2009-11-08 23:46:16) [DELETE]
+  Parameters: {"id"=>"2", "data"=>"2"}
+
+ActionController::UnknownAction (No action responded to destroy. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-08 23:46:39) [GET]
+  Parameters: {"_dc"=>"1257720399339"}
+  [4;35;1mUser Load (16.0ms)[0m   [0mSELECT * FROM [users] [0m
+Completed in 359ms (View: 16, DB: 219) | 200 OK [http://localhost/users.json?_dc=1257720399339]
+
+
+Processing UsersController#create to json (for 127.0.0.1 at 2009-11-08 23:48:54) [POST]
+  Parameters: {"data"=>{"last"=>"test", "id"=>"ext-record-1", "first"=>"test", "email"=>"test@test.com"}}
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mEXECUTE (46.0ms)[0m   [0;1mBEGIN TRANSACTION[0m
+  [4;35;1mUser Create (31.0ms)[0m   [0mINSERT INTO [users] ([updated_at], [last], [first], [email], [created_at]) VALUES('2009-11-08 22:48:54.937', 'test', 'test', 'test@test.com', '2009-11-08 22:48:54.937')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;35;1mEXECUTE (15.0ms)[0m   [0mCOMMIT TRANSACTION[0m
+Completed in 235ms (View: 16, DB: 92) | 200 OK [http://localhost/users.json]
+
+
+Processing UsersController#destroy to json (for 127.0.0.1 at 2009-11-08 23:49:02) [DELETE]
+  Parameters: {"id"=>"2", "data"=>"2"}
+  [4;36;1mUser Load (63.0ms)[0m   [0;1mSELECT * FROM [users] WHERE ([users].[id] = 2) [0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mBEGIN TRANSACTION[0m
+  [4;36;1mUser Destroy (0.0ms)[0m   [0;1mDELETE FROM [users] WHERE [id] = 2[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT @@ROWCOUNT AS AffectedRows[0m
+  [4;36;1mEXECUTE (0.0ms)[0m   [0;1mCOMMIT TRANSACTION[0m
+Completed in 156ms (View: 0, DB: 63) | 204 No Content [http://localhost/users/2.json]
+
+
+Processing ProjectsController#step6 (for 127.0.0.1 at 2009-11-08 23:49:19) [GET]
+Rendering template within layouts/application
+Rendering projects/step6
+Rendered users/_grid (78.0ms)
+Completed in 156ms (View: 125, DB: 16) | 200 OK [http://localhost/projects/step6]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-08 23:49:23) [GET]
+  Parameters: {"_dc"=>"1257720562807"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM [users] [0m
+Completed in 94ms (View: 15, DB: 31) | 200 OK [http://localhost/users.json?_dc=1257720562807]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#destroy to json (for 127.0.0.1 at 2009-11-08 23:49:32) [DELETE]
+  Parameters: {"id"=>"4", "data"=>"4"}
+  [4;36;1mUser Load (15.0ms)[0m   [0;1mSELECT * FROM [users] WHERE ([users].[id] = 4) [0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mBEGIN TRANSACTION[0m
+  [4;36;1mUser Destroy (0.0ms)[0m   [0;1mDELETE FROM [users] WHERE [id] = 4[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT @@ROWCOUNT AS AffectedRows[0m
+  [4;36;1mEXECUTE (0.0ms)[0m   [0;1mCOMMIT TRANSACTION[0m
+Completed in 110ms (View: 16, DB: 31) | 204 No Content [http://localhost/users/4.json]
+
+
+Processing ProjectsController#step6 (for 127.0.0.1 at 2009-11-08 23:49:34) [GET]
+Rendering template within layouts/application
+Rendering projects/step6
+Rendered users/_grid (78.0ms)
+Completed in 125ms (View: 110, DB: 15) | 200 OK [http://localhost/projects/step6]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-08 23:49:38) [GET]
+  Parameters: {"_dc"=>"1257720577864"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM [users] [0m
+Completed in 94ms (View: 16, DB: 15) | 200 OK [http://localhost/users.json?_dc=1257720577864]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-08 23:49:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (32.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20091108221300)
+Migrating to CreateTasks (20091108225505)
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mBEGIN TRANSACTION[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mCREATE TABLE [tasks] ([id] int NOT NULL IDENTITY(1, 1) PRIMARY KEY, [user_id] integer NOT NULL, [title] varchar(255) NOT NULL, [description] varchar(max) NOT NULL, [created_at] datetime, [updated_at] datetime) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091108225505')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mCOMMIT TRANSACTION[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (406.0ms)[0m   [0mEXEC sp_helpindex [tasks][0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mEXEC sp_helpindex [users][0m
+
+
+Processing ProjectsController#step7 (for 127.0.0.1 at 2009-11-09 00:01:11) [GET]
+Rendering template within layouts/application
+Rendering projects/step7
+Rendered users/_grid (62.0ms)
+Rendered tasks/_direct (15.0ms)
+Completed in 235ms (View: 204, DB: 31) | 200 OK [http://localhost/projects/step7]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:01:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:01:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-09 00:01:15) [GET]
+  Parameters: {"_dc"=>"1257721274806"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM [users] [0m
+Completed in 47ms (View: 0, DB: 15) | 200 OK [http://localhost/users.json?_dc=1257721274806]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:01:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:01:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step8 (for 127.0.0.1 at 2009-11-09 00:08:31) [GET]
+Rendering template within layouts/application
+Rendering projects/step8
+Rendered users/_grid (359.0ms)
+Rendered tasks/_grid (250.0ms)
+Completed in 1000ms (View: 968, DB: 32) | 200 OK [http://localhost/projects/step8]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:08:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:08:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-09 00:08:36) [GET]
+  Parameters: {"_dc"=>"1257721715070"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM [users] [0m
+Completed in 1640ms (View: 531, DB: 0) | 200 OK [http://localhost/users.json?_dc=1257721715070]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:08:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TasksController#load (for 127.0.0.1 at 2009-11-09 00:08:38) [POST]
+  Parameters: {"tid"=>2, "type"=>"rpc", "data"=>[{}]}
+  [4;35;1mTask Load (0.0ms)[0m   [0mSELECT * FROM [tasks] [0m
+Completed in 78ms (View: 16, DB: 31) | 200 OK [http://localhost/tasks/load]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:08:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:08:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/date.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:08:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:08:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#step9 (for 127.0.0.1 at 2009-11-09 00:15:43) [GET]
+Rendering template within layouts/application
+Rendering projects/step9
+Rendered users/_grid (234.0ms)
+Rendered tasks/_grid (265.0ms)
+Rendered tasks/_form (16.0ms)
+Completed in 969ms (View: 922, DB: 32) | 200 OK [http://localhost/projects/step9]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:15:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:15:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-09 00:15:48) [GET]
+  Parameters: {"_dc"=>"1257722147087"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM [users] [0m
+Completed in 1093ms (View: 359, DB: 0) | 200 OK [http://localhost/users.json?_dc=1257722147087]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:15:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TasksController#load (for 127.0.0.1 at 2009-11-09 00:15:50) [POST]
+  Parameters: {"tid"=>2, "type"=>"rpc", "data"=>[{}]}
+  [4;35;1mTask Load (15.0ms)[0m   [0mSELECT * FROM [tasks] [0m
+Completed in 78ms (View: 0, DB: 15) | 200 OK [http://localhost/tasks/load]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:15:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:16:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/date.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:16:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:16:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-11-09 00:16:24) [POST]
+  Parameters: {"tid"=>3, "type"=>"rpc", "data"=>[{"title"=>"New task", "id"=>"ext-record-1", "description"=>"this is a new task", "user_id"=>"3"}]}
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mEXECUTE (0.0ms)[0m   [0;1mBEGIN TRANSACTION[0m
+  [4;35;1mTask Create (78.0ms)[0m   [0mINSERT INTO [tasks] ([updated_at], [title], [description], [user_id], [created_at]) VALUES('2009-11-08 23:16:24.562', 'New task', 'this is a new task', 3, '2009-11-08 23:16:24.562')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mCOMMIT TRANSACTION[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM [users] WHERE ([users].[id] = 3) [0m
+Completed in 266ms (View: 16, DB: 94) | 200 OK [http://localhost/tasks/create]
+
+
+Processing ProjectsController#step9 (for 127.0.0.1 at 2009-11-09 00:24:03) [GET]
+Rendering template within layouts/application
+Rendering projects/step9
+Rendered users/_grid (94.0ms)
+Rendered tasks/_grid (125.0ms)
+Rendered tasks/_form (15.0ms)
+Completed in 344ms (View: 296, DB: 32) | 200 OK [http://localhost/projects/step9]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:24:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/bd-bg2.gif" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:24:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/topbluefade.gif" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index to json (for 127.0.0.1 at 2009-11-09 00:24:08) [GET]
+  Parameters: {"_dc"=>"1257722647711"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM [users] [0m
+Completed in 62ms (View: 0, DB: 0) | 200 OK [http://localhost/users.json?_dc=1257722647711]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:24:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/calendar.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TasksController#load (for 127.0.0.1 at 2009-11-09 00:24:09) [POST]
+  Parameters: {"tid"=>2, "type"=>"rpc", "data"=>[{}]}
+  [4;36;1mTask Load (0.0ms)[0m   [0;1mSELECT * FROM [tasks] [0m
+  [4;35;1mUser Load (15.0ms)[0m   [0mSELECT * FROM [users] WHERE ([users].[id] = 3) [0m
+Completed in 234ms (View: 47, DB: 31) | 200 OK [http://localhost/tasks/load]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:24:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/group.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/date.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:24:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/add.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-09 00:24:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/silk/delete.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/gems/1.8/gems/rails-extjs-direct-0.0.15/lib/rails-extjs-direct/rack/remoting_provider.rb:60:in `call'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TasksController#destroy (for 127.0.0.1 at 2009-11-09 00:24:58) [POST]
+  Parameters: {"tid"=>3, "type"=>"rpc", "data"=>[1]}
+  [4;36;1mTask Load (47.0ms)[0m   [0;1mSELECT * FROM [tasks] WHERE ([tasks].[id] = 1) [0m
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mBEGIN TRANSACTION[0m
+  [4;36;1mTask Destroy (31.0ms)[0m   [0;1mDELETE FROM [tasks] WHERE [id] = 1[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT @@ROWCOUNT AS AffectedRows[0m
+  [4;36;1mEXECUTE (0.0ms)[0m   [0;1mCOMMIT TRANSACTION[0m
+Completed in 157ms (View: 0, DB: 94) | 200 OK [http://localhost/tasks/destroy]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-11-09 00:25:20) [POST]
+  Parameters: {"tid"=>4, "type"=>"rpc", "data"=>[{"title"=>"tets", "id"=>"ext-record-1", "description"=>"tst2\n", "user_id"=>"3"}]}
+WARNING: Can't mass-assign these protected attributes: id
+  [4;35;1mEXECUTE (0.0ms)[0m   [0mBEGIN TRANSACTION[0m
+  [4;36;1mTask Create (0.0ms)[0m   [0;1mINSERT INTO [tasks] ([updated_at], [title], [description], [user_id], [created_at]) VALUES('2009-11-08 23:25:21.062', 'tets', 'tst2
+', 3, '2009-11-08 23:25:21.062')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT SCOPE_IDENTITY() AS Ident[0m
+  [4;36;1mEXECUTE (0.0ms)[0m   [0;1mCOMMIT TRANSACTION[0m
+  [4;35;1mUser Load (15.0ms)[0m   [0mSELECT * FROM [users] WHERE ([users].[id] = 3) [0m
+Completed in 547ms (View: 16, DB: 373) | 200 OK [http://localhost/tasks/create]

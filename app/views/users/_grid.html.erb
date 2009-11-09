@@ -1,0 +1,19 @@
+<%= javascript_include_tag "app/users/UsersGrid" %>
+ 
+<%= extjs_store(
+    :controller => "users",
+    :writer => {"encode" => false},
+    :config => {
+        "autoLoad" => true,
+        "autoSave" => true,
+        "restful" => true
+    }
+).render %>
+ 
+<% extjs_component(
+    :container => container,
+    "xtype" => 'users-grid',
+    "storeId" => 'user',
+    "title" => "Users",
+    "iconCls" => 'silk-group'
+) %>

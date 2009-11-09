@@ -1,0 +1,22 @@
+<%= javascript_include_tag ("app/tasks/TasksGrid") %>
+<% @provider.add_controller("tasks") %>
+ 
+<% @store = extjs_store(
+    :controller => "tasks",
+    :proxy => 'direct',
+    :writer => {:encode => false},
+    :config => {
+        "autoLoad" => true,
+        "restful" => true
+    }
+) %>
+ 
+<%= @store.render %>
+ 
+<% extjs_component(
+    :container => container,
+    "xtype" => 'tasks-grid',
+    "title" => 'Tasks',
+    "iconCls" => "silk-date",
+    "storeId" => @store.id
+) %>
